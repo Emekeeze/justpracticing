@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+      background-color: #333333;
+}
+
+header {
+      width: 80%;
+      background-color: black;
+      color: white;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      overflow: hidden;
+}
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+h2 {
+    font-size: 1.6em;
+
+}
+h3{
+  font-size: 1.3em;
+}
+hgroup {
+    width: 70%;
+    float: left;
+}
+hgroup h1 {
+    padding-top: 0;
+    line-height: 1em;
+}
+hgroup h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+nav {
+    width: 30;
+    float: right;
+}
+nav li {
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+p {
+  margin: 10px;
+}
+article {
+  margin: 10px;
+}
+img {
+    float: right;
+    margin: opx opx 10px 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px 1px #cccccc;
+    border-radius: 3px;
+}
+section {
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    padding: 5px;
+
+}
+
+footer {
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 10px;
+
+}
+aside {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: .8em;
+    background: #eeff99;
+    padding: 20px;
+    border: 1px solid #696;
+    border-radius: 15px;
+}
+a {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    background-color: #f44336;
+
+}
+a:hover {
+    text-decoration: underline;
+    background-color: hotpink;
+    cursor: wait;
+}
+small {
+    text-align: center;
+}
